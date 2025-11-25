@@ -34,17 +34,17 @@
   --gap-max: calc(var(--gap-margin) + var(--gap-padding));
 }
 :root {
-  --hue: 192deg;
-  --sat: 98%;
-  --light: 55%;
+  --hue: 200deg;
+  --sat: 90%;
+  --light: 58%;
   --alpha: 1;
   --theme: hsla(var(--hue) var(--sat) var(--light) / 1);
   --theme-a10: hsla(var(--hue) var(--sat) var(--light) / 0.1);
   --theme-a20: hsla(var(--hue) var(--sat) var(--light) / 0.2);
   --theme-a30: hsla(var(--hue) var(--sat) var(--light) / 0.3);
-  --accent: #ff5724;
-  --link: hsla(207deg 90% 54% / 1);
-  --link-a20: hsla(207deg 90% 54% / 0.2);
+  --accent: #ef6639;
+  --link: hsla(205deg 90% 50% / 1);
+  --link-a20: hsla(205deg 90% 50% / 0.2);
   --background: hsla(210deg 20% 98% / 1);
   --card: #fff;
   --bg-a20: hsla(210deg 0% 100% / 0.2);
@@ -333,50 +333,50 @@
   --link-a20: hsla(291.24087591240874deg 95% 32% / 0.2);
 }
 .colorful[color='theme'] {
-  --hue: 192deg;
-  --sat: 98%;
-  --light: 55%;
+  --hue: 200deg;
+  --sat: 90%;
+  --light: 58%;
   --alpha: 1;
   --theme: hsla(var(--hue) var(--sat) var(--light) / 1);
   --theme-a10: hsla(var(--hue) var(--sat) var(--light) / 0.1);
   --theme-a20: hsla(var(--hue) var(--sat) var(--light) / 0.2);
   --theme-a30: hsla(var(--hue) var(--sat) var(--light) / 0.3);
-  --link: hsla(192deg 98% 55% / 1);
-  --link-a20: hsla(192deg 98% 55% / 0.2);
-  --theme-border: hsla(192deg 50% 80% / var(--alpha));
-  --theme-block: hsla(192deg 90% 92% / var(--alpha));
-  --theme-mark: hsla(192deg 95% 80% / var(--alpha));
-  --theme-codeblock: hsla(192deg 50% 95% / var(--alpha));
-  --text: hsla(192deg 55% 16% / 1);
-  --text-p1: hsla(192deg 90% 20% / 1);
-  --text-p2: hsla(192deg 90% 20% / 0.8);
-  --text-p3: hsla(192deg 90% 20% / 0.6);
-  --text-p4: hsla(192deg 90% 20% / 0.4);
-  --link: hsla(192deg 95% 32% / 1);
-  --link-a20: hsla(192deg 95% 32% / 0.2);
+  --link: hsla(200deg 90% 58% / 1);
+  --link-a20: hsla(200deg 90% 58% / 0.2);
+  --theme-border: hsla(200deg 50% 80% / var(--alpha));
+  --theme-block: hsla(200deg 90% 92% / var(--alpha));
+  --theme-mark: hsla(200deg 95% 80% / var(--alpha));
+  --theme-codeblock: hsla(200deg 50% 95% / var(--alpha));
+  --text: hsla(200deg 55% 16% / 1);
+  --text-p1: hsla(200deg 90% 20% / 1);
+  --text-p2: hsla(200deg 90% 20% / 0.8);
+  --text-p3: hsla(200deg 90% 20% / 0.6);
+  --text-p4: hsla(200deg 90% 20% / 0.4);
+  --link: hsla(200deg 95% 32% / 1);
+  --link-a20: hsla(200deg 95% 32% / 0.2);
 }
 .colorful[color='accent'] {
-  --hue: 14deg;
-  --sat: 100%;
-  --light: 57%;
+  --hue: 15deg;
+  --sat: 85%;
+  --light: 58%;
   --alpha: 1;
   --theme: hsla(var(--hue) var(--sat) var(--light) / 1);
   --theme-a10: hsla(var(--hue) var(--sat) var(--light) / 0.1);
   --theme-a20: hsla(var(--hue) var(--sat) var(--light) / 0.2);
   --theme-a30: hsla(var(--hue) var(--sat) var(--light) / 0.3);
-  --link: hsla(14deg 100% 57% / 1);
-  --link-a20: hsla(14deg 100% 57% / 0.2);
-  --theme-border: hsla(14deg 50% 80% / var(--alpha));
-  --theme-block: hsla(14deg 90% 92% / var(--alpha));
-  --theme-mark: hsla(14deg 95% 80% / var(--alpha));
-  --theme-codeblock: hsla(14deg 50% 95% / var(--alpha));
-  --text: hsla(14deg 55% 16% / 1);
-  --text-p1: hsla(14deg 90% 20% / 1);
-  --text-p2: hsla(14deg 90% 20% / 0.8);
-  --text-p3: hsla(14deg 90% 20% / 0.6);
-  --text-p4: hsla(14deg 90% 20% / 0.4);
-  --link: hsla(14deg 95% 32% / 1);
-  --link-a20: hsla(14deg 95% 32% / 0.2);
+  --link: hsla(15deg 85% 58% / 1);
+  --link-a20: hsla(15deg 85% 58% / 0.2);
+  --theme-border: hsla(15deg 50% 80% / var(--alpha));
+  --theme-block: hsla(15deg 90% 92% / var(--alpha));
+  --theme-mark: hsla(15deg 95% 80% / var(--alpha));
+  --theme-codeblock: hsla(15deg 50% 95% / var(--alpha));
+  --text: hsla(15deg 55% 16% / 1);
+  --text-p1: hsla(15deg 90% 20% / 1);
+  --text-p2: hsla(15deg 90% 20% / 0.8);
+  --text-p3: hsla(15deg 90% 20% / 0.6);
+  --text-p4: hsla(15deg 90% 20% / 0.4);
+  --link: hsla(15deg 95% 32% / 1);
+  --link-a20: hsla(15deg 95% 32% / 0.2);
 }
 .colorful[color='light'] {
   --theme: #fff;
@@ -536,27 +536,27 @@
   }
 }
 :root[data-theme="dark"] .tag-plugin.tag {
-  --hue: 192deg;
-  --sat: 98%;
-  --light: 55%;
+  --hue: 200deg;
+  --sat: 90%;
+  --light: 58%;
   --alpha: 1;
   --theme: hsla(var(--hue) var(--sat) var(--light) / 1);
   --theme-a10: hsla(var(--hue) var(--sat) var(--light) / 0.1);
   --theme-a20: hsla(var(--hue) var(--sat) var(--light) / 0.2);
   --theme-a30: hsla(var(--hue) var(--sat) var(--light) / 0.3);
-  --link: hsla(192deg 98% 55% / 1);
-  --link-a20: hsla(192deg 98% 55% / 0.2);
-  --theme-border: hsla(192deg 40% 24% / var(--alpha));
-  --theme-block: hsla(192deg 24% 24% / var(--alpha));
-  --theme-mark: hsla(192deg 24% 24% / var(--alpha));
-  --theme-codeblock: hsla(192deg 12% 24% / var(--alpha));
-  --text: hsla(192deg 50% 75% / 1);
-  --text-p1: hsla(192deg 80% 80% / 1);
-  --text-p2: hsla(192deg 80% 80% / 0.8);
-  --text-p3: hsla(192deg 80% 80% / 0.6);
-  --text-p4: hsla(192deg 80% 80% / 0.4);
-  --link: hsla(192deg 80% 60% / 1);
-  --link-a20: hsla(192deg 80% 60% / 0.2);
+  --link: hsla(200deg 90% 58% / 1);
+  --link-a20: hsla(200deg 90% 58% / 0.2);
+  --theme-border: hsla(200deg 40% 24% / var(--alpha));
+  --theme-block: hsla(200deg 24% 24% / var(--alpha));
+  --theme-mark: hsla(200deg 24% 24% / var(--alpha));
+  --theme-codeblock: hsla(200deg 12% 24% / var(--alpha));
+  --text: hsla(200deg 50% 75% / 1);
+  --text-p1: hsla(200deg 80% 80% / 1);
+  --text-p2: hsla(200deg 80% 80% / 0.8);
+  --text-p3: hsla(200deg 80% 80% / 0.6);
+  --text-p4: hsla(200deg 80% 80% / 0.4);
+  --link: hsla(200deg 80% 60% / 1);
+  --link-a20: hsla(200deg 80% 60% / 0.2);
 }
 :root[data-theme="dark"] .colorful[color='red'] {
   --hue: 4.105263157894738deg;
@@ -744,27 +744,27 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) .tag-plugin.tag {
-    --hue: 192deg;
-    --sat: 98%;
-    --light: 55%;
+    --hue: 200deg;
+    --sat: 90%;
+    --light: 58%;
     --alpha: 1;
     --theme: hsla(var(--hue) var(--sat) var(--light) / 1);
     --theme-a10: hsla(var(--hue) var(--sat) var(--light) / 0.1);
     --theme-a20: hsla(var(--hue) var(--sat) var(--light) / 0.2);
     --theme-a30: hsla(var(--hue) var(--sat) var(--light) / 0.3);
-    --link: hsla(192deg 98% 55% / 1);
-    --link-a20: hsla(192deg 98% 55% / 0.2);
-    --theme-border: hsla(192deg 40% 24% / var(--alpha));
-    --theme-block: hsla(192deg 24% 24% / var(--alpha));
-    --theme-mark: hsla(192deg 24% 24% / var(--alpha));
-    --theme-codeblock: hsla(192deg 12% 24% / var(--alpha));
-    --text: hsla(192deg 50% 75% / 1);
-    --text-p1: hsla(192deg 80% 80% / 1);
-    --text-p2: hsla(192deg 80% 80% / 0.8);
-    --text-p3: hsla(192deg 80% 80% / 0.6);
-    --text-p4: hsla(192deg 80% 80% / 0.4);
-    --link: hsla(192deg 80% 60% / 1);
-    --link-a20: hsla(192deg 80% 60% / 0.2);
+    --link: hsla(200deg 90% 58% / 1);
+    --link-a20: hsla(200deg 90% 58% / 0.2);
+    --theme-border: hsla(200deg 40% 24% / var(--alpha));
+    --theme-block: hsla(200deg 24% 24% / var(--alpha));
+    --theme-mark: hsla(200deg 24% 24% / var(--alpha));
+    --theme-codeblock: hsla(200deg 12% 24% / var(--alpha));
+    --text: hsla(200deg 50% 75% / 1);
+    --text-p1: hsla(200deg 80% 80% / 1);
+    --text-p2: hsla(200deg 80% 80% / 0.8);
+    --text-p3: hsla(200deg 80% 80% / 0.6);
+    --text-p4: hsla(200deg 80% 80% / 0.4);
+    --link: hsla(200deg 80% 60% / 1);
+    --link-a20: hsla(200deg 80% 60% / 0.2);
   }
   :root:not([data-theme]) .colorful[color='red'] {
     --hue: 4.105263157894738deg;
@@ -952,7 +952,7 @@
   }
 }
 pre {
-  font-family: Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
+  font-family: "JetBrains Mono", Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
   font-size: 0.8125rem;
   tab-size: 4;
   -moz-tab-size: 4;
@@ -1122,7 +1122,7 @@ a.button.start.gradient {
 :root[data-theme="dark"] a.button.start.gradient {
   transition: 0.38s ease-out;
   z-index: 0;
-  background: linear-gradient(to right, #4c95fa, #38c9fa, #24f9c4, #24f9c4, #38c9fa, #4c95fa);
+  background: linear-gradient(135deg, #51c2fb, #3dc7f5);
   background-size: 1000%;
   color: #fff;
   text-shadow: 0 0 1px rgba(0,0,0,0.12);
@@ -1182,7 +1182,7 @@ a.button.start.gradient {
   :root:not([data-theme]) a.button.start.gradient {
     transition: 0.38s ease-out;
     z-index: 0;
-    background: linear-gradient(to right, #4c95fa, #38c9fa, #24f9c4, #24f9c4, #38c9fa, #4c95fa);
+    background: linear-gradient(135deg, #51c2fb, #3dc7f5);
     background-size: 1000%;
     color: #fff;
     text-shadow: 0 0 1px rgba(0,0,0,0.12);
@@ -1491,7 +1491,7 @@ a.button.start.gradient {
 code {
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
-  font-family: Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
+  font-family: "JetBrains Mono", Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
 }
 p>code:not([class]),
 li>code:not([class]) {
@@ -1508,7 +1508,7 @@ pre:not([class]):has(>code) {
   border-radius: 16px;
   overflow: hidden;
   background: var(--block);
-  font-family: Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
+  font-family: "JetBrains Mono", Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
   box-sizing: border-box;
 }
 @media screen and (min-width: 500px) {
@@ -1620,7 +1620,7 @@ pre:not([class]):has(>code) {
 }
 .md-text .gist .blob-code-inner {
   color: var(--text-p1);
-  font-family: Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
+  font-family: "JetBrains Mono", Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
 }
 .md-text .gist .gist-meta {
   background: var(--block);
@@ -1879,7 +1879,7 @@ html {
   height: 100%;
   width: 100%;
   overflow-y: scroll;
-  font-family: system-ui, "Microsoft Yahei", "Segoe UI", Arial, sans-serif;
+  font-family: "LXGW WenKai Screen", "LXGW WenKai", "霞鹜文楷", "Microsoft Yahei", "Segoe UI", system-ui, Arial, sans-serif;
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -1921,7 +1921,7 @@ input {
 }
 input.copy-area {
   display: block;
-  font-family: Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
+  font-family: "JetBrains Mono", Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
   font-size: 0.8125rem;
   font-weight: 700;
   color: var(--text-p3);
@@ -2882,7 +2882,7 @@ div.toast.show {
   background-image: url("https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/arrow/f049bbd4e88ec.svg");
 }
 .paginator-wrap .current {
-  font-family: Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
+  font-family: "JetBrains Mono", Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
   background: var(--block);
 }
 .paginator-wrap .extend {
@@ -4384,7 +4384,7 @@ a.tag-plugin.button:hover {
   border-radius: 4px;
   background: hsla(var(--hue) var(--sat) var(--light) / 0.2);
   color: var(--theme);
-  font-family: Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
+  font-family: "JetBrains Mono", Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
   font-size: 0.8125rem;
   font-weight: 700;
   flex-shrink: 0;
@@ -5497,7 +5497,7 @@ p>strong>span.tag-plugin.icon {
   border-bottom-width: 2px;
   background: var(--card);
   padding: 2px 4px 1px 4px;
-  font-family: Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
+  font-family: "JetBrains Mono", Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
   font-weight: 700;
 }
 .md-text psw {
@@ -5529,7 +5529,7 @@ p>strong>span.tag-plugin.icon {
   color: var(--theme);
   line-height: 1;
   font-weight: 700;
-  font-family: Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
+  font-family: "JetBrains Mono", Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
 }
 .md-text h1 sup,
 .md-text h2 sup,
@@ -6878,9 +6878,18 @@ details.toc[open] >div.body section .header+.doc_tree {
   width: 48px;
   height: 48px;
   flex-shrink: 0;
-  border-radius: 48px;
+  border-radius: 50%;
   overflow: hidden;
   margin-right: 1rem;
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+  -moz-transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+  -webkit-transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+  -o-transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+  box-shadow: 0 12px 28px -18px rgba(0,0,0,0.35);
+}
+.logo-wrap a.avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 36px -18px rgba(0,0,0,0.45);
 }
 .logo-wrap a.avatar div.bg {
   width: 100%;
@@ -6891,7 +6900,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   margin: 2px;
   width: calc(100% - 2 * 2px);
   height: calc(100% - 2 * 2px);
-  border-radius: calc(100% - 2 * 2px);
+  border-radius: 50%;
 }
 .logo-wrap a.avatar div.bg {
   transition: opacity 0.2s ease-out;
@@ -7098,7 +7107,7 @@ details.toc[open] >div.body section .header+.doc_tree {
 .search-wrapper .search-input {
   width: 100%;
   box-sizing: border-box;
-  font-family: system-ui, "Microsoft Yahei", "Segoe UI", Arial, sans-serif;
+  font-family: "LXGW WenKai Screen", "LXGW WenKai", "霞鹜文楷", "Microsoft Yahei", "Segoe UI", system-ui, Arial, sans-serif;
   font-size: 0.875rem;
   padding: 12px 0;
   color: var(--text);
@@ -8107,7 +8116,7 @@ details.toc[open] >div.body section .header+.doc_tree {
 }
 .post-list #archive .archive-header {
   display: inline-block;
-  font-family: Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
+  font-family: "JetBrains Mono", Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 0.5em;
@@ -8138,7 +8147,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   border-bottom: 1px dashed var(--text-meta);
 }
 .post-list #archive a.post time {
-  font-family: Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
+  font-family: "JetBrains Mono", Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
   margin-right: 1em;
   font-weight: 700;
   flex-shrink: 0;
@@ -8179,7 +8188,7 @@ details.toc[open] >div.body section .header+.doc_tree {
 }
 .post-list #cats a.cat .badge {
   font-weight: 700;
-  font-family: Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
+  font-family: "JetBrains Mono", Menlo, Monaco, Consolas, system-ui, monospace, sans-serif;
   opacity: 0.5;
   font-size: 0.75rem;
 }
@@ -8314,7 +8323,7 @@ details.toc[open] >div.body section .header+.doc_tree {
   display: inline-block;
   width: 12px;
   height: 1.2em;
-  background: #ff5724;
+  background: #ef6639;
   transform: skewX(-20deg);
   margin: 0 0.5em;
   vertical-align: top;
