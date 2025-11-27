@@ -1,9 +1,9 @@
 @font-face {
   font-family: "LXGW WenKai Screen";
   src:
-    url("/fonts/lxgw/lxgwwenkaiscreen.woff2") format("woff2"),
-    url("/fonts/lxgw/lxgwwenkaiscreen.woff") format("woff");
-  font-weight: 400;
+    url("/fonts/lxgw/LXGWWenKaiLite-Medium.woff2") format("woff2"),
+    url("/fonts/lxgw/LXGWWenKaiLite-Medium.woff") format("woff");
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
@@ -11,9 +11,9 @@
 @font-face {
   font-family: "LXGW WenKai";
   src:
-    url("/fonts/lxgw/lxgwwenkaiscreen.woff2") format("woff2"),
-    url("/fonts/lxgw/lxgwwenkaiscreen.woff") format("woff");
-  font-weight: 400;
+    url("/fonts/lxgw/LXGWWenKaiLite-Medium.woff2") format("woff2"),
+    url("/fonts/lxgw/LXGWWenKaiLite-Medium.woff") format("woff");
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
